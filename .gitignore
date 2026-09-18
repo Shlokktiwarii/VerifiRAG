@@ -1,0 +1,28 @@
+# Python
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+
+# Application configuration and local data
+
+.env
+data/raw/
+data/processed/
+data/indexes/
+
+# Local services and editors
+
+.qdrant/
+.phoenix/
+.vscode/
+.idea/
+# Build artifacts
+build/
+dist/
